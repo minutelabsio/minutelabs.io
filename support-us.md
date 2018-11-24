@@ -25,7 +25,7 @@ to your friends, students, teachers... basically everyone.
 Thanks for your help!
 
 <figure>
-	<img src="/assets/images/decorations/Astronaut.png" title="Astronaut" width="200">
+	<img src="//cdn.minutelabs.io/decorations/Astronaut.png" title="Astronaut" width="200">
 </figure>
 
 [1]: https://patreon.com/minutelabsio

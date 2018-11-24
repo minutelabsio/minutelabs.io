@@ -5,7 +5,7 @@ section: about
 ---
 
 <figure class="is-pulled-right is-hidden-mobile">
-  <img src="/assets/images/decorations/Hardware.png" title="Microchip" width="200">
+  <img src="//cdn.minutelabs.io/decorations/Hardware.png" title="Microchip" width="200">
 </figure>
 
 # What's this all about?
@@ -33,7 +33,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
 <div class="columns is-centered">
   <div class="column is-narrow is-one-third">
     <figure class="image">
-      <img class="is-rounded" src="/assets/images/people/jasper.jpg" alt="Jasper Palfree">
+      <img class="is-rounded" src="//cdn.minutelabs.io/people/jasper.jpg" alt="Jasper Palfree">
       <figcaption>
         Jasper Palfree <br> (Coding, Concept, Creator)
       </figcaption>
@@ -41,7 +41,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
   </div>
   <div class="column is-narrow is-one-third">
     <figure class="image">
-      <img class="is-rounded" src="/assets/images/people/ever.jpg" alt="Ever Salazar">
+      <img class="is-rounded" src="//cdn.minutelabs.io/people/ever.jpg" alt="Ever Salazar">
       <figcaption>
         Ever Salazar <br> (Design, Concept)
       </figcaption>
@@ -49,7 +49,7 @@ If you need to get in touch with us, you can send an email to: [info@minutelabs.
   </div>
   <div class="column is-narrow is-one-third">
     <figure class="image">
-      <img class="is-rounded" src="/assets/images/people/Henry-Reich.png" alt="Henry Reich">
+      <img class="is-rounded" src="//cdn.minutelabs.io/people/Henry-Reich.png" alt="Henry Reich">
       <figcaption>
         Henry Reich <br> (Concept, Science)
       </figcaption>
