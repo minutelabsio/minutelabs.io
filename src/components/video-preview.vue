@@ -4,6 +4,17 @@ video(autoplay, autobuffer, loop, muted, playsinline)
 </template>
 
 <script>
+import _sortBy from 'lodash/sortBy'
+
+const typeOrder = [
+  'webm'
+  , 'mp4'
+]
+function extSort( file ){
+  let idx = typeOrder.indexOf(file.ext)
+  return idx > -1 ? idx : Infinity
+}
+
 export default {
   name: 'video-preview'
   , props: {
@@ -15,7 +26,7 @@ export default {
   }
   , computed: {
     fileList(){
-      return this.files.map( url => {
+      let files = this.files.map( url => {
         let ext = url.match(/\.([^.]+)$/)[1]
         let type = `video/${ext}`
         return {
@@ -24,6 +35,7 @@ export default {
           , type
         }
       })
+      return _sortBy(files, extSort)
     }
   }
   , methods: {
