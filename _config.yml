@@ -1,6 +1,6 @@
 permalink: /:year-:month-:day/:title
 markdown: kramdown
-permalink: pretty #just for dev
+permalink: pretty
 exclude:
   - "README.md"
   - "CNAME"
