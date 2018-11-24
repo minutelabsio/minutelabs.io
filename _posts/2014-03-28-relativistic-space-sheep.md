@@ -5,7 +5,7 @@ image: //cdn.minutelabs.io/lab-previews/space-sheep.gif
 preview_files:
  - //cdn.minutelabs.io/lab-previews/space-sheep.mp4
  - //cdn.minutelabs.io/lab-previews/space-sheep.webm
-lab: //labs.minutelabs.io/Relativistic-Space-Sheep
+lab: http://labs.minutelabs.io/Relativistic-Space-Sheep
 category: lab
 trailer: https://www.youtube.com/watch?v=NVpv_rJeQcQ
 tags:
