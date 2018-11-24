@@ -1,5 +1,5 @@
 <template lang="pug">
-video(autoplay, loop, muted, playsinline)
+video(autoplay, autobuffer, loop, muted, playsinline)
   source(v-for="file in fileList", :src="file.url", :type="file.type")
 </template>
 
