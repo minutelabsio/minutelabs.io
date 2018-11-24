@@ -12,6 +12,7 @@ exclude:
 
 title : MinuteLabs.io
 url : //minutelabs.io
+theme_colour: "#2888e4"
 description : "Interactive science apps and explanations you can play with"
 library_path: "/library"
 

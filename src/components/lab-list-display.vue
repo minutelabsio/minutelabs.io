@@ -39,7 +39,7 @@
             .content
               h1.title.is-size-4 {{ lab.title }}
               .trailer(v-if="lab.trailer")
-                a(:href="lab.trailer", target="_blank")
+                a(:href="lab.trailer", target="_blank" rel="noopener")
                   b-icon(icon="youtube")
                   span Watch the Trailer Video!
               .details(v-html="lab.content")

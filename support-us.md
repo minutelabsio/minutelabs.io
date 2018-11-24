@@ -14,7 +14,7 @@ donation will help a lot. Supporters also get the opportunity to see our Labs be
 anyone else, and help us beta-test!
 
 <figure>
-	<a href="https://www.patreon.com/bePatron?u=617966" target="_blank">
+	<a href="https://www.patreon.com/bePatron?u=617966" target="_blank" rel="noopener">
 	  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="217" height="51"/>
 	</a>
 </figure>
