@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Periodic Table (of awesome)"
-image: /assets/images/periodic-table.gif
+image: //cdn.minutelabs.io/lab-previews/periodic-table.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/periodic-table.mp4
+  - //cdn.minutelabs.io/lab-previews/periodic-table.webm
 lab: http://table.minutephysics.com
 category: lab
 tags:

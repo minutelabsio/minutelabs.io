@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Number Constellations"
-image: //labs.minutelabs.io/Number-Constellations/thumb.gif
+image: //cdn.minutelabs.io/lab-previews/number-constellations.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/number-constellations.mp4
+  - //cdn.minutelabs.io/lab-previews/number-constellations.webm
 lab: //labs.minutelabs.io/Number-Constellations
 category: lab
 tags:

@@ -2,10 +2,11 @@
 {% for post in site.categories.lab %}
   {% capture url %}{% if post.lab %}{{ post.lab }}{% else %}{{ site.url }}{{ post.url }}{% endif %}{% endcapture %}
   {
-    "title":"{{ post.title }}",
-    "url":"{{ url }}",
+    "title": "{{ post.title }}",
+    "url": "{{ url }}",
     "id": "{{ post.id }}",
     "image": "{{ post.image }}",
+    "preview_files": {% if post.preview_files %}{{ post.preview_files | jsonify }}{% else %}[]{% endif %},
     "trailer": "{{ post.trailer }}",
     "lab": "{{ post.lab }}",
     "date": "{{ post.date | date_to_xmlschema }}",

@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Chaotic Pendulum"
-image: //labs.minutelabs.io/Chaotic-Pendulum/thumb.gif
+image: //cdn.minutelabs.io/lab-previews/chaotic-pendulum.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/chaotic-pendulum.mp4
+  - //cdn.minutelabs.io/lab-previews/chaotic-pendulum.webm
 lab: //labs.minutelabs.io/Chaotic-Pendulum
 trailer: https://www.youtube.com/watch?v=DliraUWx03A
 category: lab

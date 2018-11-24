@@ -1,8 +1,11 @@
 ---
 layout: lab
 title: "Sheep Bounce"
-image: /assets/images/sheepbounce.gif
-lab: http://minutelabs.io/Sheep-Bounce
+image: //cdn.minutelabs.io/lab-previews/sheepbounce.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/sheepbounce.mp4
+  - //cdn.minutelabs.io/lab-previews/sheepbounce.webm
+lab: http://labs.minutelabs.io/Sheep-Bounce
 category: lab
 tags:
   - matter

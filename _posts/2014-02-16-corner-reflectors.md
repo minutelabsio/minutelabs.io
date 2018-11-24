@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Corner Reflectors"
-image: /assets/images/corner-reflector.gif
+image: //cdn.minutelabs.io/lab-previews/corner-reflector.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/corner-reflector.mp4
+  - //cdn.minutelabs.io/lab-previews/corner-reflector.webm
 lab: http://minutelabs.io/Optics/corner-reflector
 category: lab
 tags:

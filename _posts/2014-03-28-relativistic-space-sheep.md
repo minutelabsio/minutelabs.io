@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Relativistic Space Sheep"
-image: //labs.minutelabs.io/Relativistic-Space-Sheep/thumb.gif
+image: //cdn.minutelabs.io/lab-previews/space-sheep.gif
+preview_files:
+ - //cdn.minutelabs.io/lab-previews/space-sheep.mp4
+ - //cdn.minutelabs.io/lab-previews/space-sheep.webm
 lab: //labs.minutelabs.io/Relativistic-Space-Sheep
 category: lab
 trailer: https://www.youtube.com/watch?v=NVpv_rJeQcQ
