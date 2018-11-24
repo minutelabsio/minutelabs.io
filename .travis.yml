@@ -8,7 +8,7 @@ sudo: false
 cache: bundler
 branches:
   only:
-  - masger
+  - master
 deploy:
   provider: pages
   target-branch: gh-pages
