@@ -1,0 +1,34 @@
+permalink: /:year-:month-:day/:title
+markdown: kramdown
+permalink: pretty #just for dev
+exclude:
+  - "README.md"
+  - "CNAME"
+  - "LICENSE"
+  - "package.json"
+  - "node_modules"
+  - "src"
+  - "vendor" #jekyll travis
+
+title : MinuteLabs.io
+url : //minutelabs.io
+description : "Interactive science apps and explanations you can play with"
+library_path: "/library"
+
+social :
+  email : info@minutelabs.io
+  github : minutelabsio
+  twitter : minutelabsio
+
+limits :
+  posts : nil
+
+nav:
+  - title: Labs
+    url: /
+
+  - title: Support Us
+    url: /support-us
+
+  - title: About
+    url: /about
