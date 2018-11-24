@@ -5,7 +5,9 @@ before_install:
 install: bundle install
 script: "yarn build"
 sudo: false
-cache: bundler
+cache:
+  - bundler
+  - yarn
 branches:
   only:
   - master
