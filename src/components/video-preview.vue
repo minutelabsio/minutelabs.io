@@ -5,7 +5,7 @@
       v-for="(file, index) in fileList"
       , :src="file.url"
       , :type="file.type"
-      , @error="fallback()"
+      , @error="(index === fileList.length - 1) && fallback()"
     )
   img(v-if="useFallback", :src="poster")
 </template>
