@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Convex Lenses"
-image: //labs.minutelabs.io/Lenses/thumb.gif
+image: //cdn.minutelabs.io/lab-previews/lenses.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/lenses.mp4
+  - //cdn.minutelabs.io/lab-previews/lenses.webm
 lab: //labs.minutelabs.io/Lenses
 trailer: https://www.youtube.com/watch?v=PKa6XdWat2s
 category: lab

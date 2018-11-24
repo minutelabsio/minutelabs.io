@@ -34,7 +34,8 @@
         article.lab.card
           .card-image
             figure.image.is-3by2
-              img(:src="lab.image")
+              img(v-if="!lab.preview_files.length", :src="lab.image")
+              video-preview(v-if="lab.preview_files.length", :files="lab.preview_files")
           .card-content
             .content
               h1.title.is-size-4 {{ lab.title }}
@@ -64,6 +65,7 @@ import _uniq from 'lodash/uniq'
 import _debounce from 'lodash/debounce'
 import Promise from 'bluebird'
 import axios from 'axios'
+import VideoPreview from '@/components/video-preview'
 
 function Resource( url, opts = {} ){
 
@@ -119,6 +121,7 @@ export default {
     , searchFilter: ''
   })
   , components: {
+    VideoPreview
   }
   , mounted(){
     this.labs.fetch()
@@ -192,6 +195,15 @@ export default {
   display: flex
   align-items: center
   justify-content: flex-end
+.image
+  video
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
 .lab-list-display
   position: relative
   min-height: 300px

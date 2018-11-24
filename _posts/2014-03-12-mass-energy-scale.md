@@ -1,7 +1,10 @@
 ---
 layout: lab
 title: "Mass-Energy Scale"
-image: //labs.minutelabs.io/Mass-Energy-Scale/thumb.gif
+image: //cdn.minutelabs.io/lab-previews/mass-energy.gif
+preview_files:
+  - //cdn.minutelabs.io/lab-previews/mass-energy.mp4
+  - //cdn.minutelabs.io/lab-previews/mass-energy.webm
 lab: //labs.minutelabs.io/Mass-Energy-Scale
 category: lab
 trailer: https://www.youtube.com/watch?v=M6io53Yiad8
