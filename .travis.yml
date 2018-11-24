@@ -1,0 +1,19 @@
+language: ruby
+rvm: 2.3.7
+before_install:
+  - yarn install
+install: bundle install
+script: "yarn build"
+sudo: false
+cache: bundler
+branches:
+  only:
+  - master
+deploy:
+  provider: pages
+  target-branch: gh-pages
+  skip-cleanup: true
+  github-token: $githubToken
+  keep-history: true
+  on:
+    branch: master
