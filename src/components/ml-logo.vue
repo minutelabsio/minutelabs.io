@@ -1,7 +1,7 @@
 <template lang="pug">
 .ml-logo
-  img(width="100", src="@/../assets/images/logos/logo-minutelabs-no-text-100x100.png", alt="MinuteLabs.io")
-  img.flicker(v-show="flicker", width="136", height="129", src="@/../assets/images/loader/logo-loading-small.gif")
+  img(width="160", src="//cdn.minutelabs.io/logos/logo-minutelabs-off.jpg", alt="MinuteLabs.io")
+  img.flicker(v-show="flicker", width="160", src="//cdn.minutelabs.io/logos/logo-minutelabs-on.jpg")
 </template>
 
 <script>
@@ -44,9 +44,31 @@ export default {
 
 <style lang="sass" scoped>
 @import '@/styles/_variables.scss'
+@keyframes flickerAnimation
+  0%
+    opacity: 1
+  10%
+    opacity: 0
+  15%
+    opacity: 1
+  30%
+    opacity: 0
+  50%
+    opacity: 1
+  55%
+    opacity: 0
+  68%
+    opacity: 1
+  79%
+    opacity: 0
+  90%
+    opacity: 1
+  98%
+    opacity: 0
+
 .ml-logo
   position: relative
-  width: 96px
+  width: 160px
 
   &,
   img
@@ -56,7 +78,10 @@ export default {
     &.flicker
       display: block
       position: absolute
-      top: -33.4px
-      left: -21px
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
       max-width: none
+      animation: flickerAnimation 0.8s infinite cubic-bezier(0,1,0,1)
 </style>
