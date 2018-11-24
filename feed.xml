@@ -11,7 +11,7 @@ section: hidden
         <image>
           <link>{{ site.url }}</link>
           <title>{{ site.title | xml_escape }}</title>
-          <url>{{ site.url }}/assets/images/logos/logo-minutelabs-no-text-40x40.png</url>
+          <url>http://cdn.minutelabs.io/logos/logo-minutelabs-no-text-40x40.png</url>
           <height>40</height>
           <width>40</width>
         </image>
