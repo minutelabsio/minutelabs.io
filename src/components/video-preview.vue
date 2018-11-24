@@ -1,6 +1,13 @@
 <template lang="pug">
-video(autoplay, autobuffer, loop, muted, playsinline)
-  source(v-for="file in fileList", :src="file.url", :type="file.type")
+.preview
+  video(v-if="!useFallback", autoplay, autobuffer, loop, muted, playsinline)
+    source(
+      v-for="(file, index) in fileList"
+      , :src="file.url"
+      , :type="file.type"
+      , @error="fallback()"
+    )
+  img(v-if="useFallback", :src="poster")
 </template>
 
 <script>
@@ -19,8 +26,10 @@ export default {
   name: 'video-preview'
   , props: {
     files: Array
+    , poster: String
   }
   , data: () => ({
+    useFallback: false
   })
   , components: {
   }
@@ -39,6 +48,9 @@ export default {
     }
   }
   , methods: {
+    fallback(){
+      this.useFallback = true
+    }
   }
 }
 </script>

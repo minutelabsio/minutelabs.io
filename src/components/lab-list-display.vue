@@ -35,7 +35,7 @@
           .card-image
             figure.image.is-3by2
               img(v-if="!lab.preview_files.length", :src="lab.image")
-              video-preview(v-if="lab.preview_files.length", :files="lab.preview_files")
+              video-preview(v-if="lab.preview_files.length", :files="lab.preview_files", :poster="lab.image")
           .card-content
             .content
               h1.title.is-size-4 {{ lab.title }}
@@ -196,7 +196,7 @@ export default {
   align-items: center
   justify-content: flex-end
 .image
-  video
+  video, .preview
     position: absolute
     top: 0
     left: 0
