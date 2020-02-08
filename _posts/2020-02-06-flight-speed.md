@@ -6,7 +6,7 @@ preview_files:
   - //cdn.minutelabs.io/lab-previews/flight-speed.mp4
   - //cdn.minutelabs.io/lab-previews/flight-speed.webm
 lab: https://labs.minutelabs.io/flight-speed/
-trailer: https://www.youtube.com/minutelabsio
+trailer: https://youtu.be/F-lnH22zD54
 category: lab
 tags:
   - aeronautics
