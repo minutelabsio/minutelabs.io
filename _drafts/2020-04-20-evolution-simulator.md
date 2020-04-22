@@ -16,4 +16,4 @@ tags:
 
 *Watch little blob creatures evolve under natural selection!*
 
-In collaboration with Primer, I built an interactive version of his "Simulating Natural Selection" video!
+I built an interactive version of [Primer's "Simulating Natural Selection" video](https://www.youtube.com/watch?v=0ZGbIKd0XrM)!
