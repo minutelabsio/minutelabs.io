@@ -1,6 +1,6 @@
 ---
 layout: lab
-title: "Flight Speed?"
+title: "Flight Speed"
 image: //cdn.minutelabs.io/lab-previews/flight-speed.gif
 preview_files:
   - //cdn.minutelabs.io/lab-previews/flight-speed.mp4
