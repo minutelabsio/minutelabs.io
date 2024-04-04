@@ -48,9 +48,6 @@ jobs:
         uses: oven-sh/setup-bun@v1
       - name: Setup Python # sigh
         uses: actions/setup-python@v5.1.0
-        with:
-          # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
-          python-version: 2
       - name: Build js
         run: bun install && bun build/build.js
       - name: Build with Jekyll
