@@ -221,9 +221,9 @@ export default {
     color: darken($grey-light, 30)
     font-size: $size-2
     font-family: $family-monospace
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex
+    align-items: center
+    justify-content: center
     span
       text-align: center
 
