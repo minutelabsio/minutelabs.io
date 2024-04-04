@@ -29,9 +29,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-20.04
-    container:
-      image: python:2.7.18-buster
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
